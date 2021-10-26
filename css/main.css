@@ -1,0 +1,126 @@
+/* стили для index.html */
+
+/* Заголовок */
+
+.caption{
+    background-color: var(--background-fotter);
+    width: 1600px;
+    height: 600px;
+}
+.title{
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primari-white-color);
+    
+}
+.button{ 
+    background-color: var(--accent-color);
+    color: var(--primari-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    letter-spacing: 0.06em;
+    width: 200px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Послуги */
+.Services{
+
+}
+.Services-title{
+    font-weight:700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+.subtitle-text{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+/* Чем мы занимаемся */
+.section{
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/* команда */
+.command{
+    background-color: var(--button-background-color);
+
+}
+.command-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.command-list{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+
+/* Стили для portfolio.html */
+
+/* навигация поиска */
+
+.button-nav li{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+}
+.button-nav-title{
+    background-color: var(--button-background-color);
+    color: var(--primary-text-color);
+    border-radius: 5px;
+    width: 145px;
+    height: 38px;
+    cursor: pointer;
+}
+.button-nav-title:hover,
+.button-nav-title:focus{
+    background-color: var(--accent-color);
+    color: var(--primari-white-color);
+}
+
+.subtitle-list{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.subtitle-text{
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
