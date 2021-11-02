@@ -34,6 +34,7 @@
     margin-left: auto;
     border-radius: 5px;
     cursor: pointer;
+    font-family: inherit;
 }
 /* Послуги */
 .services{
@@ -89,19 +90,26 @@
 
 /* навигация поиска */
 
-.button-nav li{
+.button-nav { 
+     
+}
+
+.button-nav-title{
+    background-color: var(--button-background-color);
+    color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    
-}
-.button-nav-title{
-    background-color: var(--button-background-color);
-    color: var(--primary-text-color);
     border-radius: 5px;
     cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;  
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-family: inherit;
 }
 .button-nav-title:hover,
 .button-nav-title:focus{
